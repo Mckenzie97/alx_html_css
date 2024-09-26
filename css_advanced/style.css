@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+    height: 50vw;
+}
+header nav{
+    display: flex;
+    gap: 75rem;
+    margin: 3.125rem 12.5rem;
+}
+header nav ul{
+    display: flex;
+    float: left;
+    gap: 4.375rem;
+    list-style-type: none;
+
+}
+header nav ul li{
+    text-decoration: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
