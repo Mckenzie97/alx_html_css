@@ -3,24 +3,23 @@
     padding: 0;
 
 }
-body{
+main{
     background-image: url(Object.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 50vw;
-    height: 50vw;
+    width: fit-content;
+    height: fit-content;
+
 }
 header nav{
     display: flex;
-    gap: 75rem;
-    margin: 3.125rem 12.5rem;
+    padding-top: 30px;
+    padding-left: 50px;
 }
 header nav ul{
     display: flex;
-    float: left;
-    gap: 4.375rem;
+    gap:20px;
     list-style-type: none;
+    padding-left: 800px;
 
 }
 header nav ul li{
@@ -30,4 +29,76 @@ header nav ul li a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+}
+main section div h1{
+    padding-top: 170px;
+    font-size: 100px;
+    padding-left: 50px;
+}
+main section .sch{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+span{
+    padding: 30px;
+    font-size: 10px;
+
+}
+main section div button{
+    color: white;
+    background-color: #C271FF;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 10px;
+}
+.one h2{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+    color: white;
+}
+.one h2 span{
+    margin-right: -30px;
+    font-size: 35px;
+    color: #C271FF;
+    font-weight: bolder;
+}
+.pics{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 50px;
+}
+.pic{
+    border-radius: 50%;
+}
+.pics h3{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.pics p{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.two{
+    background-color: #C271FF;
+    margin-top: 66px;
+    padding: 60px;
+    padding-left: 200px;
+    display: flex;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+.two .det{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.two h3{
+    margin-top: 20px;
+    font-size: 16px;
 }
